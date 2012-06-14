@@ -1,0 +1,9 @@
+---
+applications:
+  .:
+    name: simplewebrb
+    framework: sinatra
+    runtime: ruby19
+    memory: 128M
+    instances: 1
+    url: simplewebrb.cloudfoundry.com
