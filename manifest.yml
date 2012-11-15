@@ -1,9 +1,14 @@
+
 ---
 applications:
   .:
     name: simplewebrb
-    framework: sinatra
-    runtime: ruby19
-    memory: 128M
+    framework:
+      name: sinatra
+      info:
+        mem: 128M
+        description: Sinatra Application
+        exec: ruby web.rb
+    url: ${name}.${target-base}
+    mem: 128M
     instances: 1
-    url: simplewebrb.cloudfoundry.com
