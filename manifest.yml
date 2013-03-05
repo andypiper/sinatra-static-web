@@ -1,14 +1,9 @@
-
 ---
 applications:
-  .:
-    name: simplewebrb
-    framework:
-      name: sinatra
-      info:
-        mem: 128M
-        description: Sinatra Application
-        exec: ruby web.rb
-    url: ${name}.${target-base}
-    mem: 128M
-    instances: 1
+- name: simplewebrb 
+  framework: rack
+  runtime: ruby19
+  memory: 128M
+  instances: 1
+  url: simplewebrb.${target-base}
+  path: .

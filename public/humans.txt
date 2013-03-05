@@ -9,5 +9,5 @@
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Twitter Bootstrap, Sinatra
+  Components: Bootstrap, Sinatra, Github Fork Ribbon CSS
   Software: Comic Ipsum, Fillerama, Lebowski Ipsum
