@@ -4,6 +4,8 @@ A trivial app to demonstrate serving of static content using the Sinatra framewo
 
 Some sample / placeholder content is provided (styled with Bootstrap) but the expectation is that the user will replace the contents of the ``public`` directory with files for static serving by the Ruby app.
 
+Read more about the motivation for this [on my blog](http://andypiper.co.uk/2012/08/21/a-simple-website-on-cloud-foundry/).
+
 ## Overview
 
 This example uses:
