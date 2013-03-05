@@ -1,6 +1,6 @@
 ---
 applications:
-- name: simplewebrb 
+- name: simplewebrb
   framework: rack
   runtime: ruby19
   memory: 128M
