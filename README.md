@@ -29,3 +29,5 @@ Put your own static web content (with an index.html file, and maybe a 404.html f
 ... and you are good to go.
  
 Optionally, fiddle with the settings in the top of the web.rb file to tweak how things work.
+
+There is an example Cloud Foundry manifest.yml(.example) file - if you wish to use this for one-push deployment, rename to manifest.yml and edit the name of the application to be something unique for your Cloud Foundry installation, or the push will fail. 
