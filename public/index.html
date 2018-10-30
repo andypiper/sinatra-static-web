@@ -1,118 +1,146 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Simple web server</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Random content">
-    <meta name="author" content="Andy Piper">
 
-    <!-- Le styles -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Simple web server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Random content">
+  <meta name="author" content="Andy Piper">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+  <!-- Le styles -->
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+  </style>
+  <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="./img/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="./img/apple-touch-icon-57-precomposed.png">
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="./img/apple-touch-icon-57-precomposed.png">
 
-    <link rel="stylesheet" href="./css/gh-fork-ribbon.css" />
-    <!--[if IE]>
+  <link rel="stylesheet" href="./css/gh-fork-ribbon.css" />
+  <!--[if IE]>
         <link rel="stylesheet" href="./css/gh-fork-ribbon.ie.css" />
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div class="github-fork-ribbon-wrapper right">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/andypiper/sinatra-static-web">Fork me on GitHub</a>
+  <div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/andypiper/sinatra-static-web">Fork me on GitHub</a>
+    </div>
+  </div>
+
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="#">Sinatra, the webserver</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+          </ul>
         </div>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="hero-unit">
+      <h1>Check me out!</h1>
+      <p>This is some random Bootstrap-styled content to act as a demonstrator for a trivial <a href="http://www.sinatrarb.com/"
+          title="Sinatra">Sinatra</a>-based webserver.</p>
+      <p><a href="non-existent.html">Click here</a> for a dead link / error page</p>
     </div>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Sinatra, the webserver</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="span4">
+        <h2>The IT Crowd</h2>
+        <p>See the driver hooks a function by patching the system call table, so its not safe to unload it unless
+          another
+          thread's about to jump in there and do its stuff, and you don't want to end up in the middle of invalid
+          memory!
+          Unbelievable! Some idiot disabled his firewall, meaning all the computers on Seven are teeming with viruses,
+          plus
+          I've just had to walk all the way down the motherfudging stairs, because the lifts are broken AGAIN! Well
+          that's easy
+          to remember. 0118 999 88199 9119 725! ... 3! OK. Moss, what did you have for breakfast this morning? Smarties
+          cereal.
+          Nicer ambulances, faster response times and better looking drivers mean they're not just the Emergency
+          Services,
+          they're your Emergency Services. Might want to play a bit hard to get.</p>
+        <p><a class="btn" href="http://www.itcrowdipsum.com/">View details &raquo;</a></p>
+      </div>
+      <div class="span4">
+        <h2>I am The Doctor</h2>
+        <p>Be a pal and tell me, Am I a good man? Yes, well, the definition of the word 'humanity' is always a rather
+          complex
+          question, isn’t it? Jamie, remind me to give you a lesson in tying knots, sometime. Have faith, Brigadier.
+          Have I
+          ever led you astray? I just have one question… do you know how to fly this thing? I hate computers and refuse
+          to be
+          bullied by them. I am totally against bantering. People assume that time is a strict progression of
+          cause-and-effect... but actually, from a non-linear, non-subjective viewpoint, it's more like a big ball of
+          wibbly-wobbly... timey-wimey... stuff.</p>
+        <p><a class="btn" href="http://doctoripsum.com/">View details &raquo;</a></p>
+      </div>
+      <div class="span4">
+        <h2>Corporate nonsense</h2>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+          corporate
+          strategy foster collaborative thinking to further the overall value proposition. Organically grow the
+          holistic world
+          view of disruptive innovation via workplace diversity and empowerment.</p>
+        <p><a class="btn" href="http://cipsum.com/">View details &raquo;</a></p>
       </div>
     </div>
 
-    <div class="container">
+    <hr>
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Check me out!</h1>
-        <p>This is some random Bootstrap-styled content to act as a demonstrator for a trivial <a href="http://www.sinatrarb.com/" title="Sinatra">Sinatra</a>-based webserver.</p>
-        <p><a href="non-existent.html">Click here</a> for a dead link / error page</p>
-      </div>
+    <footer>
+      <p>&copy; you and your app 2018</p>
+    </footer>
 
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>The Dude</h2>
-           <p>We want that money, Lebowski. Well sir, it's this rug I have, really tied the room together. They call Los Angeles the City of Angels. I didn't find it to be that exactly, but I'll allow as there are some nice folks there. 'Course, I can't say I seen London, and I never been to France... But I'll tell you what, after seeing Los Angeles and thisahere story I'm about to unfold —wal, I guess I seen somethin' ever' bit as stupefyin' as ya'd see in any a those other places, and in English too, so I can die with a smile on my face...</p>
-          <p><a class="btn" href="http://lebowskiipsum.com/">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>I am The Doctor</h2>
-           <p>I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. It's a fez. I wear a fez now. Fezes are cool. No... It's a thing; it's like a plan, but with more greatness. They're not aliens, they're Earth…liens! I'm nobody's taxi service; I'm not gonna be there to catch you every time you feel like jumping out of a spaceship. You know how I sometimes have really brilliant ideas?</p>
-          <p><a class="btn" href="http://chrisvalleskey.com/fillerama/">View details &raquo;</a></p>
-       </div>
-        <div class="span4">
-          <h2>Comic Heroes</h2>
-          <p>Red hulk, whiz kid, deadpool heather hudson jean grey silver surfer erg-1. Captain france fandral claire bennet emma frost; valerie hart sentry alex woolsly elongated man. Iron fist, rachel pirzad. Sky-eater atom girl sobek bishop captain italy, firestar nina theroux diablo thing mimic moondragon professor x cyborg.</p>
-          <p><a class="btn" href="http://comicipsum.com/">View details &raquo;</a></p>
-        </div>
-      </div>
+  </div> <!-- /container -->
 
-      <hr>
-
-      <footer>
-        <p>&copy; you and your app 2012</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-    <!-- Le javascript
+  <!-- Le javascript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap-transition.js"></script>
-    <script src="./js/bootstrap-alert.js"></script>
-    <script src="./js/bootstrap-modal.js"></script>
-    <script src="./js/bootstrap-dropdown.js"></script>
-    <script src="./js/bootstrap-scrollspy.js"></script>
-    <script src="./js/bootstrap-tab.js"></script>
-    <script src="./js/bootstrap-tooltip.js"></script>
-    <script src="./js/bootstrap-popover.js"></script>
-    <script src="./js/bootstrap-button.js"></script>
-    <script src="./js/bootstrap-collapse.js"></script>
-    <script src="./js/bootstrap-carousel.js"></script>
-    <script src="./js/bootstrap-typeahead.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap-transition.js"></script>
+  <script src="./js/bootstrap-alert.js"></script>
+  <script src="./js/bootstrap-modal.js"></script>
+  <script src="./js/bootstrap-dropdown.js"></script>
+  <script src="./js/bootstrap-scrollspy.js"></script>
+  <script src="./js/bootstrap-tab.js"></script>
+  <script src="./js/bootstrap-tooltip.js"></script>
+  <script src="./js/bootstrap-popover.js"></script>
+  <script src="./js/bootstrap-button.js"></script>
+  <script src="./js/bootstrap-collapse.js"></script>
+  <script src="./js/bootstrap-carousel.js"></script>
+  <script src="./js/bootstrap-typeahead.js"></script>
 
-  </body>
+</body>
+
 </html>
